@@ -1,0 +1,17 @@
+2021-01-20 17:11:29,532 WARNING werkzeug MainThread :  * Debugger is active!
+2021-01-20 17:11:29,549 INFO werkzeug MainThread :  * Debugger PIN: 138-556-194
+2021-01-20 17:11:29,582 INFO werkzeug Thread-1 :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-01-20 17:11:40,692 INFO werkzeug MainThread :  * Restarting with stat
+2021-01-20 17:11:41,809 WARNING werkzeug MainThread :  * Debugger is active!
+2021-01-20 17:11:41,826 INFO werkzeug MainThread :  * Debugger PIN: 138-556-194
+2021-01-20 17:11:41,859 INFO werkzeug Thread-1 :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-01-20 17:11:47,406 WARNING app Thread-2 : Sign verification failed!
+2021-01-20 17:11:47,406 INFO werkzeug Thread-2 : 127.0.0.1 - - [20/Jan/2021 17:11:47] "[37mPOST /test HTTP/1.1[0m" 200 -
+2021-01-20 17:12:49,010 INFO werkzeug Thread-3 : 127.0.0.1 - - [20/Jan/2021 17:12:49] "[37mPOST /test HTTP/1.1[0m" 200 -
+2021-01-20 17:33:24,701 INFO werkzeug MainThread :  * Restarting with stat
+2021-01-20 17:33:25,829 WARNING werkzeug MainThread :  * Debugger is active!
+2021-01-20 17:33:25,845 INFO werkzeug MainThread :  * Debugger PIN: 138-556-194
+2021-01-20 17:33:25,879 INFO werkzeug Thread-1 :  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2021-01-20 17:33:49,881 INFO werkzeug Thread-2 : 127.0.0.1 - - [20/Jan/2021 17:33:49] "[37mPOST /test HTTP/1.1[0m" 200 -
+2021-01-20 17:34:00,422 WARNING app Thread-3 : Sign verification failed!
+2021-01-20 17:34:00,422 INFO werkzeug Thread-3 : 127.0.0.1 - - [20/Jan/2021 17:34:00] "[37mPOST /test HTTP/1.1[0m" 200 -
