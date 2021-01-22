@@ -3,7 +3,7 @@ from flask import request
 from model import get_route_json
 from utils import verify_md5_sign
 import json
-import requests
+# import requests
 import logging
 
 app = Flask(__name__)
@@ -15,7 +15,9 @@ if __name__ != '__main__':
 
 logging.basicConfig(filename='record.log', level=logging.WARNING, format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
 
-
+@app.route('/')
+def hello():
+    return 'hello docker&flask'
 
 @app.route('/test', methods=['POST'])
 def return_route():
@@ -37,4 +39,4 @@ def return_route():
 
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0',port=8000)
+    app.run(debug=True, host='0.0.0.0')

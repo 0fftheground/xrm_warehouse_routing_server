@@ -15,3 +15,5 @@
 2021-01-20 17:33:49,881 INFO werkzeug Thread-2 : 127.0.0.1 - - [20/Jan/2021 17:33:49] "[37mPOST /test HTTP/1.1[0m" 200 -
 2021-01-20 17:34:00,422 WARNING app Thread-3 : Sign verification failed!
 2021-01-20 17:34:00,422 INFO werkzeug Thread-3 : 127.0.0.1 - - [20/Jan/2021 17:34:00] "[37mPOST /test HTTP/1.1[0m" 200 -
+2021-01-21 11:45:08,804 WARNING app Dummy-1 : Sign verification failed!
+2021-01-21 11:45:15,808 WARNING app Dummy-2 : Sign verification failed!
